@@ -1,0 +1,108 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .colom-1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .colom-2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .tentang-kami img {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+.tentang-kami {
+  margin-top: 100px;
+}
+
+.tentang-kami .container .row {
+  padding-bottom: 0px;
+  border-bottom: none;
+}
+
+.tentang-kami img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.tentang-kami h4 {
+  font-size: 17px;
+  color: #1a6692;
+  margin-bottom: 20px;
+}
+
+.tentang-kami p {
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+
+  font-size: 14px;
+  font-weight: 300;
+  color: #4a4a4a;
+  line-height: 24px;
+}
+
+.section-heading {
+  text-align: left;
+  margin-bottom: 60px;
+  border-bottom: 1px solid #eee;
+}
+
+.section-heading h2 {
+  font-size: 28px;
+  font-weight: 400;
+  color: #1e1e1e;
+  margin-bottom: 15px;
+}
+
+.colom-1, .colom-2 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
