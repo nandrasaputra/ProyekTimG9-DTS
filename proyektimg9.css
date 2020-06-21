@@ -2,6 +2,25 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+footer {
+  display: block;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #3e8286;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+footer .inner-content {
+  border-top: 1px solid #eee;
+  padding: 60px 0px;
+}
+
 img {
   vertical-align: middle;
   border-style: none;
