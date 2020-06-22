@@ -226,3 +226,32 @@ ul.social-icons li a {
   text-align: center;
   transition: all .3s;
 }
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(24, 48, 89, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.container-header {
+  display: inline-block;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-left {
+  float: left;
+}
+
+.logo-header {
+  margin-top: 10px;
+  width: 124px;
+}
+
+.tentang-kami-container {
+  margin-top: 100px;
+}
